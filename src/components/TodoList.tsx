@@ -1,4 +1,4 @@
-import { Todo } from "@/types/todo";
+import { Todo } from "@/type/todo";
 import { CheckIcon, TrashIcon } from "./Icons";
 
 interface TodoListProps {
