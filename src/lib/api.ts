@@ -9,7 +9,5 @@ export async function fetchTodos(): Promise<Todo[]> {
     throw new Error("Failed to fetch todos");
   }
   const data = await response.json();
-  console.log(data);
   return data.todos;
 }
-export const dummy = 1;
